@@ -1,0 +1,35 @@
+body {
+    border: 1px solid black;
+    box-shadow: 3px 3px 0px black;
+    margin-top: 1%;
+    margin-left: 23%;
+    margin-bottom: 43%;
+    margin-right: 17%;
+    text-align: center;
+}
+
+#book {
+    line-height: 50px;
+    width: 75%;
+    margin-left: 90px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+span {
+    text-align: center;
+}
+
+.para::first-letter {
+    float: left;
+    font-size: 70px;
+    line-height: 50px;
+    padding-top: 3px;
+    padding-right: 7px;
+    padding-left: 4px;
+}
+
+.para {
+    text-align: justify;
+}
